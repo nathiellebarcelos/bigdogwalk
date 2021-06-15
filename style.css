@@ -1,0 +1,167 @@
+body {
+  width: 100%;
+  margin: 0 0 0 0; /*removes margin and padding*/
+  font-family: "soleil", sans-serif;
+  color: #293155;
+}
+h3 {
+  text-align: center; /*Aligns itens to the center*/
+}
+
+#nav-img {
+  float: left; /*floats list items left*/
+}
+
+#nav {
+  float: left; /*floats list items left*/
+
+  display: block; /*fills up the entire list item and makes the whole area clickable*/
+  list-style: none; /*removes bullets from the list*/
+  text-decoration: none; /*removes the underline from the anchor*/
+  font-weight: bold;
+  color: #293155;
+}
+
+#nav li a {
+  display: block; /*fills up the entire list item and makes the whole area clickable*/
+  padding-top: 0px; /*padding to position the menu*/
+  margin-right: 840px; /*margin will space them out a bit*/
+  text-decoration: none; /*removes the underline from the anchor*/
+  font-weight: bold;
+  color: #293155;
+}
+
+#nav a:hover {
+  color: #c00;
+}
+
+.column2,
+.column3 {
+  float: left; /*floats list items left*/
+}
+
+#icons {
+  margin: 0 0 0 0; /*removes margin and padding*/
+  display: block; /*fills up the entire list item and makes the whole area clickable*/
+  list-style: none; /*removes bullets from the list*/
+}
+
+#icons li {
+  float: left; /*floats list items left*/
+}
+
+#icons li a {
+  display: block; /*fills up the entire list item and makes the whole area clickable*/
+  padding: 0px; /*padding to position the menu*/
+}
+
+.column2 {
+  text-align: center; /*Aligns itens to the center*/
+  margin: 0px 120px 0px 120px; /*margin will space them out a bit*/
+  color: #293155;
+}
+
+#click {
+  text-decoration: none; /*removes the underline from the anchor*/
+  font-weight: bold;
+  color: red;
+}
+
+.column3 img {
+  width: 450px; /*definy the item width*/
+  height: 250px; /*definy the item height*/
+}
+
+.column3 {
+  text-align: center; /*Aligns itens to the center*/
+  margin: 0px 120px 0px 120px; /*margin will space them out a bit*/
+}
+
+.dogfetch,
+.dogswim,
+.dogtraining {
+  width: 430px; /*definy the item width*/
+  text-align: center; /*Aligns itens to the center*/
+  float: left; /*floats list items left*/
+  margin: 0px 20px; /*margin will space them out a bit*/
+}
+
+.dogfetch img {
+  width: 430px; /*definy the item width*/
+  height: 300px; /*definy the item height*/
+}
+
+.dogswim img {
+  width: 430px; /*definy the item width*/
+  height: 300px; /*definy the item height*/
+}
+
+.dogtraining img {
+  width: 430px; /*definy the item width*/
+  height: 300px; /*definy the item height*/
+}
+
+.dogswim p {
+  padding-bottom: 17px; /*padding will space around the item*/
+}
+
+.dogtraining p {
+  padding-bottom: 35px; /*padding will space around the item*/
+}
+
+.dogfetch,
+.dogswim,
+.dogtraining p {
+  text-align: justify; /*Justify text*/
+}
+
+.column4 {
+  width: 100%;
+  float: left; /*floats list items left*/
+  text-align: center; /*Aligns itens to the center*/
+}
+
+.container img {
+  width: 1420px; /*definy the item width*/
+  margin: 0 0 0 0;
+}
+.container button {
+  position: absolute; /*postion item over another item*/
+  left: 600px; /*specify position on the page*/
+  top: 390px; /*specify position on the page*/
+  border: none; /*removes border style*/
+  background-color: #e5007d;
+  padding: 18px 40px; /*padding will space around the item*/
+  text-align: center; /*Aligns itens to the center*/
+  text-decoration: none; /*removes the underline from the anchor*/
+  font-size: 20px; /*definy font size*/
+}
+
+.container button a {
+  text-decoration: none; /*removes the underline from the anchor*/
+  color: white;
+}
+.container h1 {
+  position: absolute; /*postion item over another item*/
+  left: 500px; /*specify position on the page*/
+  top: 180px; /*specify position on the page*/
+  text-shadow: 6px 4px 9px #293155; /*put some shadow behind item*/
+  color: #fff;
+}
+
+.container p {
+  position: absolute; /*postion item over another item*/
+  left: 200px; /*specify position on the page*/
+  right: 200px; /*specify position on the page*/
+  top: 240px; /*specify position on the page*/
+  color: #fff;
+  font-size: 20px; /*definy font size*/
+  text-align: center; /*Aligns itens to the center*/
+  text-shadow: 4px 4px 7px #293155; /*put some shadow behind item*/
+}
+
+#dogwalk {
+  width: 900px; /*definy the item width*/
+  height: 600px; /*definy the item height*/
+  margin-left: 250px; /*margin will space them out a bit*/
+}
